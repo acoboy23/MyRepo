@@ -18,5 +18,5 @@ T Git::myMax(T a, T b)
 
 void Git::printSomething(string s)
 {
-    cout << "printSomething: " << s << endl;
+    cout << "printSomethin
 }
