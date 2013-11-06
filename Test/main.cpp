@@ -1,5 +1,9 @@
 #include <iostream>
 #include <string>
+#include <stdlib.h>
+#include <time.h>
+#include "Git.h"
+
 using namespace std;
 
 
@@ -38,6 +42,8 @@ public:
 
 int main()
 {
+    srand (time(NULL));
+
     Monster m;
     Ninja n;
     Gorilla g;
@@ -47,9 +53,12 @@ int main()
     Enemy *e3 = &g;
 
     //attack
-    e1->attack(45);
-    e2->attack(34);
-    e3->attack(56);
+    e1->attack(rand() % 100);
+    e2->attack(rand() % 100);
+    e3->attack(rand() % 100);
+
+    cout << "Let's make this clear..." << endl;
+    Git g1;
 
     return 0;
 }
