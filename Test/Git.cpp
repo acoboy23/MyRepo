@@ -16,12 +16,8 @@ T Git::myMax(T a, T b)
     return a>b?a:b;
 }
 
-void Git::printString(string s)
+template <class I>
+void Git::printAnything(I n)
 {
-    cout << "printString: " << s << endl;
-}
-
-void Git::printNumber(int i)
-{
-    cout << "printNumber: " << i << endl;
+    cout << "printAnything: " << n << endl;
 }

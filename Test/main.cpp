@@ -59,8 +59,6 @@ int main()
 
     cout << "Let's make this clear..." << endl;
     Git g1;
-    g1.printString("Hey, it works perfect!");
-    g1.printNumber(5);
 
     return 0;
 }
