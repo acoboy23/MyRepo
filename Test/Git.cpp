@@ -16,7 +16,12 @@ T Git::myMax(T a, T b)
     return a>b?a:b;
 }
 
-void Git::printSomething(string s)
+void Git::printString(string s)
 {
-    cout << "printSomething: " << s << endl;
+    cout << "printString: " << s << endl;
+}
+
+void Git::printNumber(int i)
+{
+    cout << "printNumber: " << i << endl;
 }

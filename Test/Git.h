@@ -13,7 +13,8 @@ class Git
         template <class T>
         T myMax(T a, T b);
 
-        void printSomething(string s);
+        void printString(string s);
+        void printNumber(int i);
     protected:
     private:
 };
