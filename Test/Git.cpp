@@ -1,5 +1,6 @@
 #include "Git.h"
 #include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -13,4 +14,9 @@ template <class T>
 T Git::myMax(T a, T b)
 {
     return a>b?a:b;
+}
+
+void Git::printSomething(string s)
+{
+    cout << "printSomething: " << s << endl;
 }
