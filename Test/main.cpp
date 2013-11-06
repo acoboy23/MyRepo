@@ -1,15 +1,17 @@
 #include <iostream>
-using namespace std;
 
-#define MIN(a,b) (a<b?a:b)
+using namespace std;
 
 int main()
 {
-    int i,j;
-    i = 100.7;
-    j = 30.6;
+    cout << "This is a completely different main.cpp" << endl;
 
-    cout << "The min is " << MIN(i,j) << endl;
+    /*
+        this is not going to affect the "master" branch
+        because it is on another branch called "try"
+
+        if anything goes wrong.. doesn't affect anything else
+    */
 
     return 0;
 }
