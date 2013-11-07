@@ -1,3 +1,6 @@
 Yello World!
-Are you a JOKE?
-Yes you are!
+Are you a COKE?
+
+No I'm not!
+
+This is perfect version of a text file :D
