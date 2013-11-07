@@ -4,10 +4,10 @@
 
 using namespace std;
 
-Git::Git()
+Git::Git(string s)
 {
-    cout << "This is for GIT!" << endl;
-    cout << "Max is " << myMax(45,56) << endl;
+    cout << s << endl;
+    //cout << "Max is " << myMax(45,56) << endl;
 }
 
 template <class T>

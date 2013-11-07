@@ -8,7 +8,7 @@ using namespace std;
 class Git
 {
     public:
-        Git();
+        Git(string s);
 
         template <class T>
         T myMax(T a, T b);

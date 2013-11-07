@@ -1,17 +1,18 @@
 #include <iostream>
+#include <string>
+#include <stdio.h>
+//#include "Git.h"
 
 using namespace std;
 
+int myMax(int x, int y)
+{
+    return x>y?x:y;
+}
+
+
 int main()
 {
-    cout << "This is a completely different main.cpp" << endl;
-
-    /*
-        this is not going to affect the "master" branch
-        because it is on another branch called "try"
-
-        if anything goes wrong.. doesn't affect anything else
-    */
-
+    cout << myMax(54,567) << endl;
     return 0;
 }
