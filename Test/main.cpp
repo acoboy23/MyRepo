@@ -2,26 +2,25 @@
 
 using namespace std;
 
-template<class T>
-double myMax(T x, T y)
+void printMultiply(int * x, int * y)
 {
-    return x>y?x:y;
+    *x = 7;
+    *y = 8;
+
+    cout << "x:\t" << *x << endl;
+    cout << "y:\t" << *y << endl;
 }
 
 int main()
 {
-    cout << "This is a completely different main.cpp" << endl;
-    int x = 5;
-    int y = 6.7;
+    int i = 5;
+    int j = 6;
 
-    cout << "The max is " << myMax((double)x, (double)y) << endl;
+    printMultiply(&i,&j);
 
-    /*
-        this is not going to affect the "master" branch
-        because it is on another branch called "try"
-
-        if anything goes wrong.. doesn't affect anything else
-    */
+    cout << "i:\t" << i << endl;
+    cout << "j:\t" << j << endl;
 
     return 0;
+
 }
